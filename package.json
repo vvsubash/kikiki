@@ -1,0 +1,21 @@
+{
+  "name": "nuxt3-starter",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "nu dev",
+    "build": "nu build",
+    "start": "node .output/server",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "nuxt3": "0.7.4",
+    "reqlim": "^0.0.0"
+  },
+  "resolutions": {
+    "nuxt-cli": "0.3.6"
+  },
+  "keywords": []
+}
